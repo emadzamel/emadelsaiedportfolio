@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import profileImage from "@/assets/profile-image.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,9 +17,11 @@ const Hero = () => {
           {/* Profile Picture */}
           <div className="mb-8 animate-fade-in">
             <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-primary p-1 shadow-card animate-float">
-              <div className="w-full h-full rounded-full bg-muted flex items-center justify-center text-6xl font-bold text-primary">
-                E
-              </div>
+              <img 
+                src={profileImage} 
+                alt="Emad Elsaied Mohammed" 
+                className="w-full h-full rounded-full object-cover"
+              />
             </div>
           </div>
 
