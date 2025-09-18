@@ -32,7 +32,7 @@ const Portfolio = () => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Project Title 1
+                  Stock Market Detection
                 </h3>
                 <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
                   Add your project description here. Describe the technologies used and the problem it solves.
