@@ -1,6 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Folder, Clock, ArrowRight } from "lucide-react";
+import project1Image from "@/assets/project1.png";
+import project2Image from "@/assets/project2.jpg";
+import project3Image from "@/assets/project3.jpg";
 
 const Portfolio = () => {
   return (
@@ -20,11 +23,12 @@ const Portfolio = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project 1 */}
             <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
-              <div className="aspect-video bg-gradient-subtle flex items-center justify-center">
-                <div className="text-muted-foreground text-center p-4">
-                  <Folder className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                  <p className="text-sm">Upload Project Image</p>
-                </div>
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src={project1Image} 
+                  alt="AI Development Project" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
@@ -47,11 +51,12 @@ const Portfolio = () => {
 
             {/* Project 2 */}
             <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
-              <div className="aspect-video bg-gradient-subtle flex items-center justify-center">
-                <div className="text-muted-foreground text-center p-4">
-                  <Folder className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                  <p className="text-sm">Upload Project Image</p>
-                </div>
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src={project2Image} 
+                  alt="Data Analysis Project" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
@@ -74,11 +79,12 @@ const Portfolio = () => {
 
             {/* Project 3 */}
             <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
-              <div className="aspect-video bg-gradient-subtle flex items-center justify-center">
-                <div className="text-muted-foreground text-center p-4">
-                  <Folder className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                  <p className="text-sm">Upload Project Image</p>
-                </div>
+              <div className="aspect-video overflow-hidden">
+                <img 
+                  src={project3Image} 
+                  alt="Machine Learning Project" 
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">
