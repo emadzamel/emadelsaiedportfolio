@@ -17,39 +17,84 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group">
-              <CardContent className="p-12 text-center">
-                <div className="w-24 h-24 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                  <Folder className="w-12 h-12 text-primary-foreground" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Project 1 */}
+            <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
+              <div className="aspect-video bg-gradient-subtle flex items-center justify-center">
+                <div className="text-muted-foreground text-center p-4">
+                  <Folder className="w-12 h-12 mx-auto mb-2 opacity-50" />
+                  <p className="text-sm">Upload Project Image</p>
                 </div>
-                
-                <h3 className="text-2xl font-bold text-foreground mb-4">
-                  Exciting Projects Coming Soon
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-foreground mb-3">
+                  Project Title 1
                 </h3>
-                
-                <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-                  I'm currently working on several innovative AI and machine learning projects that will be showcased here. 
-                  These projects will demonstrate my expertise in generative AI, computer vision, and deep learning applications.
+                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                  Add your project description here. Describe the technologies used and the problem it solves.
                 </p>
-
-                <div className="flex items-center justify-center text-primary mb-8">
-                  <Clock className="w-5 h-5 mr-2" />
-                  <span className="font-medium">Portfolio updates in progress</span>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button variant="premium" size="lg">
-                    Check Back Later
-                    <ArrowRight className="w-4 h-4 ml-2" />
+                <div className="flex gap-3">
+                  <Button variant="premium" size="sm" className="flex-1">
+                    Live Demo
+                    <ArrowRight className="w-3 h-3 ml-1" />
                   </Button>
-                  <Button variant="outline" size="lg">
-                    Contact for Details
+                  <Button variant="outline" size="sm" className="flex-1">
+                    GitHub
                   </Button>
                 </div>
+              </CardContent>
+            </Card>
 
-                <div className="mt-8 text-sm text-muted-foreground">
-                  <p>Meanwhile, feel free to connect with me to discuss current projects and collaborations</p>
+            {/* Project 2 */}
+            <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
+              <div className="aspect-video bg-gradient-subtle flex items-center justify-center">
+                <div className="text-muted-foreground text-center p-4">
+                  <Folder className="w-12 h-12 mx-auto mb-2 opacity-50" />
+                  <p className="text-sm">Upload Project Image</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-foreground mb-3">
+                  Project Title 2
+                </h3>
+                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                  Add your project description here. Describe the technologies used and the problem it solves.
+                </p>
+                <div className="flex gap-3">
+                  <Button variant="premium" size="sm" className="flex-1">
+                    Live Demo
+                    <ArrowRight className="w-3 h-3 ml-1" />
+                  </Button>
+                  <Button variant="outline" size="sm" className="flex-1">
+                    GitHub
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Project 3 */}
+            <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
+              <div className="aspect-video bg-gradient-subtle flex items-center justify-center">
+                <div className="text-muted-foreground text-center p-4">
+                  <Folder className="w-12 h-12 mx-auto mb-2 opacity-50" />
+                  <p className="text-sm">Upload Project Image</p>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-bold text-foreground mb-3">
+                  Project Title 3
+                </h3>
+                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                  Add your project description here. Describe the technologies used and the problem it solves.
+                </p>
+                <div className="flex gap-3">
+                  <Button variant="premium" size="sm" className="flex-1">
+                    Live Demo
+                    <ArrowRight className="w-3 h-3 ml-1" />
+                  </Button>
+                  <Button variant="outline" size="sm" className="flex-1">
+                    GitHub
+                  </Button>
                 </div>
               </CardContent>
             </Card>
