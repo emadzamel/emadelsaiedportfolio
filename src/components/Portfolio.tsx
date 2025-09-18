@@ -64,10 +64,7 @@ const Portfolio = () => {
             </Card>
 
             {/* Project 3 */}
-            <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
-              
-              
-            </Card>
+            
           </div>
         </div>
       </div>
