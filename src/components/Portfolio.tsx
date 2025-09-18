@@ -35,7 +35,7 @@ const Portfolio = () => {
                   Stock Market Detection
                 </h3>
                 <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
-                  Add your project description here. Describe the technologies used and the problem it solves.
+                  Predicting the coming changes in stock market
                 </p>
                 <div className="flex gap-3">
                   <Button variant="premium" size="sm" className="flex-1">
