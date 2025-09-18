@@ -50,9 +50,7 @@ const Portfolio = () => {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold text-foreground mb-3">deep learning image detection</h3>
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
-                  Add your project description here. Describe the technologies used and the problem it solves.
-                </p>
+                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">using deep neural nework to detect specific objects</p>
                 <div className="flex gap-3">
                   <Button variant="premium" size="sm" className="flex-1">
                     Live Demo
