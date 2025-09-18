@@ -18,7 +18,8 @@ const Portfolio = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl">
             {/* Project 1 */}
             <Card className="bg-gradient-card shadow-card hover:shadow-hover transition-all duration-300 group overflow-hidden">
               <div className="aspect-video overflow-hidden">
@@ -65,6 +66,7 @@ const Portfolio = () => {
 
             {/* Project 3 */}
             
+            </div>
           </div>
         </div>
       </div>
